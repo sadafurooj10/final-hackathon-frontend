@@ -1,0 +1,85 @@
+.cv-preview {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  background: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.cv-preview h2 {
+  margin: 0;
+  font-size: 26px;
+  color: #222;
+}
+
+.cv-preview p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.cv-preview a {
+  color: #007bff;
+  text-decoration: none;
+}
+.cv-preview a:hover {
+  text-decoration: underline;
+}
+
+/* Profile Pic */
+.cv-preview img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+/* Sections */
+.cv-preview section {
+  margin-bottom: 20px;
+}
+
+.cv-preview h3 {
+  color: #007bff;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+/* Back button */
+.cv-preview button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+.cv-preview button:hover {
+  background: #111;
+}
+
+/* Message when no data */
+.cv-message {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #666;
+}

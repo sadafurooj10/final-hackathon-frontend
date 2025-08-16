@@ -1,0 +1,66 @@
+/* Main container */
+.cv-builder {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.cv-builder h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Inputs & textarea */
+.cv-builder input,
+.cv-builder textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.cv-builder input:focus,
+.cv-builder textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Upload section */
+.cv-builder label {
+  display: block;
+  margin: 15px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Button */
+.cv-builder button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cv-builder button:hover {
+  background: #0056b3;
+}

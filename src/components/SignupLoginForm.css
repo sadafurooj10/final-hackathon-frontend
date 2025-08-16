@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #36096d, #37d5d6);
+}
+
+.form-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  width: 380px;
+  text-align: center;
+}
+
+.form-box h2 {
+  margin-bottom: 25px;
+  color: #36096d;
+  font-weight: bold;
+  font-size: 26px;
+  position: relative;
+}
+
+.form-box h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #36096d;
+  margin: 8px auto 0;
+  border-radius: 3px;
+}
+
+/* Input wrapper with icon */
+.input-box {
+  position: relative;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.input-box input {
+  width: 80%;
+  padding: 12px 40px 12px 40px;
+  border: none;
+  background: #f0f0f0;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+.input-box i {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: 16px;
+}
+
+/* Buttons */
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-box button {
+  flex: 1;
+  padding: 12px;
+  margin: 0 6px;
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Active Button */
+.btn-primary {
+  background: #36096d;
+  color: #fff;
+  flex: 1;
+  padding: 12px;
+  margin: 0 6px;
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  width: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #2a0654;
+}
+
+/* Disabled/Secondary Button */
+.btn-secondary {
+  background: #e0e0e0;
+  color: #777;
+  cursor: not-allowed;
+}
